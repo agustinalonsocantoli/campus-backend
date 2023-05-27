@@ -1,10 +1,8 @@
 import Courses from "../models/courses.model.js";
-import { dbConnection, dbEnd } from "../database.js";
 
 const coursesController = {
 
     getAllCourses: async (req, res, next) => {
-        await dbConnection();
         
         try {
             
@@ -24,11 +22,8 @@ const coursesController = {
                 error: error
             });
         }
-
-        await dbEnd();
     },
     getCourses: async (req, res, next) => {
-        await dbConnection();
         
         try {    
 
@@ -48,11 +43,8 @@ const coursesController = {
                 error: error
             });
         }
-
-        await dbEnd();
     },
     newCourses: async (req, res, next) => {
-        await dbConnection();
 
         try {
     
@@ -87,11 +79,8 @@ const coursesController = {
                 error: error
             });
         }
-
-        await dbEnd();
     },
     updateCourses: async (req, res, next) => {
-        await dbConnection();
 
         try {
 
@@ -125,11 +114,8 @@ const coursesController = {
                 error: error
             });
         }
-
-        await dbEnd();
     },
     deleteCourses: async (req, res, next) => {
-        await dbConnection();
 
         try {
             await Courses.findOneAndDelete({_id: req.params.id})
@@ -148,8 +134,6 @@ const coursesController = {
                 error: error
             });
         }
-
-        await dbEnd();
     },
 }
 

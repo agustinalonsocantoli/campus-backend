@@ -1,7 +1,6 @@
 import Users from "../models/users.model.js";
 import Rol from "../models/rol.model.js";
 import { encryptPassword, validatePassword } from '../functions/hashUsers.js'
-import { dbConnection, dbEnd } from "../database.js";
 import jwt from "jsonwebtoken";
 import dotenv from 'dotenv';
 dotenv.config()
@@ -9,7 +8,6 @@ dotenv.config()
 const authController = {
 
     signup: async (req, res, next) => {
-        await dbConnection();
 
         try{
 
@@ -51,7 +49,6 @@ const authController = {
     },
 
     login: async (req, res, next) => {
-        await dbConnection();
 
         try {
             const foundUser = await Users.findOne({email: req.body.email}).populate("rol");
@@ -80,8 +77,6 @@ const authController = {
                 error: error
             })
         }
-
-        await dbEnd();
     }
 }
     

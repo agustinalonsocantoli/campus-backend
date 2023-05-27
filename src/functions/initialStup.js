@@ -1,13 +1,11 @@
-import { dbConnection, dbEnd } from '../database.js';
 import Rol from '../models/rol.model.js'
 
 export const createRoles = async () => {
     try{
-        await dbConnection();
 
         const count = await Rol.estimatedDocumentCount();
 
-        if (count > 0) return dbEnd();
+        if (count > 0) return;
     
         const values = await Promise.all([
             new Rol({name: 'student'}).save(),
@@ -15,8 +13,6 @@ export const createRoles = async () => {
             new Rol({name: 'moderador'}).save(),
             new Rol({name: 'admin'}).save()
         ])
-
-        dbEnd();
     } catch(error) {
         console.error(error);
     }

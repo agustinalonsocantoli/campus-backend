@@ -1,4 +1,5 @@
 import app, { PORT } from './app.js';
+import './database.js'
 
 // SERVER
 try {

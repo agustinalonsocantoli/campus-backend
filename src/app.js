@@ -7,13 +7,10 @@ import morgan from 'morgan';
 import homeRouter from './routes/home.routes.js';
 import coursesRouter from './routes/courses.routes.js';
 import authRouter from './routes/auth.routes.js';
-// Functions
-import { createRoles } from './functions/initialStup.js';
 
 // CONFIG 
 dotenv.config()
 const app = express();
-createRoles();
 app.use(morgan('dev'));
 app.use(express.json());
 
