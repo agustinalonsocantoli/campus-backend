@@ -1,26 +1,1232 @@
-{
-    "name": "JavaScript",
-    "modules": [
-        {
-            "moduleName": "Inicio",
-            "lesson": [
-                {"lessonName": "sesion 1", "lessonTime": 2},
-                {"lessonName": "sesion 2", "lessonTime": 3},
-                {"lessonName": "sesion 3", "lessonTime": 5}
-            ]
-        },
-        {
-            "moduleName": "Fin",
-            "lesson": [
-                {"lessonName": "sesion 4", "lessonTime": 1},
-                {"lessonName": "sesion 5", "lessonTime": 4},
-                {"lessonName": "sesion 6", "lessonTime": 7}
-            ]
-        }
-    ],
-    "duration": 20,
-    "imgUrl": "https://",
-    "type": "Intermedio",
-    "description": "CURSO PARA BASES DE JS",
-    "prominent": false
-}
+[
+    {
+        "name": "Introducción a la programación",
+        "modules": [
+            {
+                "moduleName": "Programación. Variables y constantes",
+                "lesson": [
+                    {"lessonName": "Historia de la programación", "lessonTime": 16},
+                    {"lessonName": "Tipos de lenguaje de programación", "lessonTime": 17},
+                    {"lessonName": "Aplicaciones Cliente-Servidor", "lessonTime": 6},
+                    {"lessonName": "Memoria y variables", "lessonTime": 13},
+                    {"lessonName": "Instalacion visual code", "lessonTime": 4}
+                ]
+            },
+            {
+                "moduleName": "Estructuras de control",
+                "lessons": [
+                    {"lessonName": "Estructuras condicionales", "lessonTime": 15},
+                    {"lessonName": "Bucles (loops)", "lessonTime": 12},
+                    {"lessonName": "Control de flujo", "lessonTime": 10}
+                ]
+            },
+            {
+                "moduleName": "Funciones y procedimientos",
+                "lessons": [
+                    {"lessonName": "Introducción a las funciones", "lessonTime": 14},
+                    {"lessonName": "Parámetros y argumentos", "lessonTime": 8},
+                    {"lessonName": "Retorno de valores", "lessonTime": 9},
+                    {"lessonName": "Ámbito de las variables", "lessonTime": 11}
+                ]
+            },
+            {
+                "moduleName": "Estructuras de datos",
+                "lessons": [
+                    {"lessonName": "Arrays (arreglos)", "lessonTime": 16},
+                    {"lessonName": "Objetos", "lessonTime": 18},
+                    {"lessonName": "Listas enlazadas", "lessonTime": 10},
+                    {"lessonName": "Pilas y colas", "lessonTime": 12}
+                ]
+            },
+            {
+            "moduleName": "Programación orientada a objetos",
+            "lessons": [
+                    {"lessonName": "Conceptos básicos de POO", "lessonTime": 14},
+                    {"lessonName": "Clases y objetos", "lessonTime": 15},
+                    {"lessonName": "Herencia y polimorfismo", "lessonTime": 18},
+                    {"lessonName": "Encapsulamiento y abstracción", "lessonTime": 12}
+                ]
+            },
+            {
+                "moduleName": "Manejo de errores y excepciones",
+                "lessons": [
+                    {"lessonName": "Tipos de errores", "lessonTime": 10},
+                    {"lessonName": "Captura y manejo de excepciones", "lessonTime": 12},
+                    {"lessonName": "Lanzamiento de excepciones", "lessonTime": 9}
+                ]
+            },
+            {
+            "moduleName": "Trabajo con archivos",
+            "lessons": [
+                    {"lessonName": "Lectura de archivos", "lessonTime": 13},
+                    {"lessonName": "Escritura en archivos", "lessonTime": 11},
+                    {"lessonName": "Manipulación de archivos CSV", "lessonTime": 14}
+                ]
+            }          
+        ],
+        "duration": "5h 31min",
+        "imgUrl": "https://storage.googleapis.com/openvitae-prod/cursos/ckwneqwac000g0452b0yk4cxl.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=openvitaebeta%40wired-coda-333713.iam.gserviceaccount.com%2F20230527%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230527T173036Z&X-Goog-Expires=518401&X-Goog-SignedHeaders=host&X-Goog-Signature=021491752694345e483e5c64dd1b06b9702e03d7d539cea04a48d47e7b3cc5b3e3b294584778633701919f794f3b65a66c34630b2fa111bebebf7d2a5a9dec0565b17ecea0549a2225d0d8b2063807ee1d003e5e11d5e935173deb66888b521c5d80825839fee2175ac91692fe8d1d7c219e1754a789dcc11593696cf3ff8ca58fd162d1eba9dca287b6abc16493ab2b037a4e78f094c7ef9e092ed0c533071ad5947a0d9d51dd0158b7ba773c0b07899ca27494e69280e13414df1bf84c993d49ab7380f1a4c43fa2736b3050d01de689b5b64509ba9e0287c03d73d93a7bb11e9bb7db7b6dad790b9269f8019d5e69d5bf07811b257d6302a22b651d1dab84",
+        "type": "Inicial",
+        "description": "En este módulo aprenderéis las bases de la programación desde cero para que, sea cual sea el lenguaje que queráis abordar, tengáis claros los conceptos.",
+        "prominent": false
+    },
+    {
+        "name": "JavaScript Básico",
+        "modules": [
+            {
+                "moduleName": "Sintaxis, variables y palabras reservadas de JS",
+                "lesson": [
+                    {"lessonName": "Tipado en JS y tipos primitivos", "lessonTime": 19},
+                    {"lessonName": "Declaración de variables y escritura dinámica", "lessonTime": 15},
+                    {"lessonName": "Notación de JavaScript", "lessonTime": 8},
+                    {"lessonName": "Listas, Fechas y Objetos en JavaScript", "lessonTime": 10}
+                ]
+            },
+            {
+                "moduleName": "Estructuras de control",
+                "lesson": [
+                    {"lessonName": "Condicionales: if, else if, else", "lessonTime": 25},
+                    {"lessonName": "Bucles: for, while, do while", "lessonTime": 30},
+                    {"lessonName": "Switch y operador ternario", "lessonTime": 20}
+                ]
+            },
+            {
+                "moduleName": "Funciones en JavaScript",
+                "lesson": [
+                    {"lessonName": "Definición y llamada de funciones", "lessonTime": 15},
+                    {"lessonName": "Parámetros y argumentos", "lessonTime": 20},
+                    {"lessonName": "Funciones anónimas y funciones flecha", "lessonTime": 15}
+                ]
+            },
+            {
+                "moduleName": "Arreglos y bucles",
+                "lesson": [
+                    {"lessonName": "Arreglos: creación, acceso y modificación", "lessonTime": 25},
+                    {"lessonName": "Recorriendo arreglos con bucles", "lessonTime": 20},
+                    {"lessonName": "Métodos de arreglos: map, filter, reduce", "lessonTime": 30}
+                ]
+            },
+            {
+                "moduleName": "Objetos y JSON",
+                "lesson": [
+                    {"lessonName": "Objetos: creación y propiedades", "lessonTime": 20},
+                    {"lessonName": "Acceso a propiedades de objetos", "lessonTime": 15},
+                    {"lessonName": "JSON: serialización y deserialización", "lessonTime": 25}
+                ]
+            },
+            {
+                "moduleName": "Gestión de errores",
+                "lesson": [
+                    {"lessonName": "Manejo de excepciones y errores", "lessonTime": 20},
+                    {"lessonName": "Bloques try-catch-finally", "lessonTime": 15},
+                    {"lessonName": "Lanzamiento de errores personalizados", "lessonTime": 20}
+                ]
+            },
+            {
+                "moduleName": "DOM Manipulación",
+                "lesson": [
+                    {"lessonName": "Introducción al DOM", "lessonTime": 15},
+                    {"lessonName": "Manipulación del contenido del DOM", "lessonTime": 20},
+                    {"lessonName": "Eventos y manejo de eventos", "lessonTime": 25}
+                ]
+            },
+            {
+                "moduleName": "AJAX y APIs",
+                "lesson": [
+                    {"lessonName": "Introducción a AJAX", "lessonTime": 15},
+                    {"lessonName": "Realización de peticiones AJAX", "lessonTime": 20},
+                    {"lessonName": "Consumo de APIs REST", "lessonTime": 25}
+                ]
+            }
+        ],     
+        "duration": "5h 12min",
+        "imgUrl": "https://storage.googleapis.com/openvitae-prod/cursos/ckwnq87m6001604525c4d0zd6.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=openvitaebeta%40wired-coda-333713.iam.gserviceaccount.com%2F20230527%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230527T175143Z&X-Goog-Expires=518401&X-Goog-SignedHeaders=host&X-Goog-Signature=70d5588811670f88ef2965983049ffecc1ac781abf592cbe5a80b6fde2ec0511c4c54049122a3e99fc534d77c5f7305d90215d5e625bd708b9b577d2212ef558405b534ad84116c2469ac7fe4727b6993bde128af867ac1387ccf9687b8058e109fbc5f1017ae9dbdb48f0b1890107b39bf834fa62282fb9bd854662843f072d13f0d71ab51589059a4f86cb74cfe61d7e99ce858837d4885084de3905181883f7671b82083a04399111cdf6cd2e00d52e1a2e14eb0932e4c1ad34db73b6f86e5375781b55a12ae7a89f97e804f194ea2a55ca127f1daa245645982be97df26d86d958ee9f883dd1511235e6a36f54a447f19bb93f913df210b31e29f1093baa",
+        "type": "Inicial",
+        "description": "Empieza tu formación en JavaScript, uno de los lenguajes más populares y utilizados en el desarrollo de aplicaciones web, multiplataforma, móvil y servicios, entre otros.",
+        "prominent": false
+    },
+    {
+        "name": "Git",
+        "modules": [
+            {
+                "moduleName": "Introducción al control de versiones",
+                "lesson": [
+                    {"lessonName": "Introducción al control de versiones", "lessonTime": 50}
+                ]
+            },
+            {
+                "moduleName": "Instalacion",
+                "lesson": [
+                    {"lessonName": "Instalacion", "lessonTime": 35}
+                ]
+            },
+            {
+                "moduleName": "Conflictos",
+                "lesson": [
+                    {"lessonName": "Conflictos", "lessonTime": 120}
+                ]
+            },
+            {
+                "moduleName": "Repositorio local",
+                "lesson": [
+                    {"lessonName": "Repositorio local", "lessonTime": 150}
+                ]
+            },
+            {
+                "moduleName": "Repositorios remotos",
+                "lesson": [
+                    {"lessonName": "Repositorios remotos", "lessonTime": 135}
+                ]
+            },
+            {
+                "moduleName": "Gitflow",
+                "lesson": [
+                    {"lessonName": "Gitflow", "lessonTime": 55}
+                ]
+            },
+            {
+                "moduleName": "GitHub Actions",
+                "lesson": [
+                    {"lessonName": "GitHub Actions", "lessonTime": 59}
+                ]
+            },
+            {
+                "moduleName": "Introducción a CI/CD",
+                "lesson": [
+                    {"lessonName": "Introducción a CI/CD", "lessonTime": 101}
+                ]
+            },
+            {
+                "moduleName": "Bitbucket Pipelines",
+                "lesson": [
+                    {"lessonName": "Bitbucket Pipelines", "lessonTime": 115}
+                ]
+            }
+        ],     
+        "duration": "13h 6min",
+        "imgUrl": "https://storage.googleapis.com/openvitae-prod/cursos/ckwno8yim000w0452hs9g3pxp.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=openvitaebeta%40wired-coda-333713.iam.gserviceaccount.com%2F20230527%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230527T180259Z&X-Goog-Expires=518401&X-Goog-SignedHeaders=host&X-Goog-Signature=8fc40a2877b3f4d44ecff88720bf15cdbe7b8b83056f715413d959f21ec554f72bff9e9fc62b610360efe79a689e0722c5d2d36521e89a53f7047afd517cef52a549e5df76e5eeefe6cfa7ba83cb18a0adcfa57d0f747e90b07ee31c47fbeb5f6183ad441c423e0d69a7fefb59e9d38504df2f579a54a4eb2e68125c5c8556396fdc8d027093fee92ec3a24882549aa66a56c252339dfed4be539a2bbfc3e03e30bdbbe2716d624cf4527b0855fb515e6598629ceec14ab0539f3b8b275bbd36ff881298d0662e175bc52064e3eaf3842aacc9194b83497cbd730add4cddb4e416d2dd545b953d4550be79ba6d654d883db74c76a2ec9e7624869d624d58525b",
+        "type": "Intermedio",
+        "description": "En este módulo aprenderás qué es un sistema de control de versiones y cómo gestionarlo de manera efectiva, junto a las herramientas más utilizada: Git, Gitlab, Github y Bitbucket. También aprenderás a automatizar procesos en pipelines de CI con tus repositorios remotos para empezar tu integración en el mundo de DevOps.",
+        "prominent": false
+    },
+    {
+        "name": "TypeScript",
+        "modules": [
+            {
+                "moduleName": "Introducción a TypeScript",
+                "lesson": [
+                    {"lessonName": "Introducción a TypeScript", "lessonTime": 60}
+                ]
+            },
+            {
+                "moduleName": "Sintaxis, variables y estructuras de control",
+                "lesson": [
+                    {"lessonName": "Sintaxis, variables y estructuras de control", "lessonTime": 75}
+                ]
+            },
+            {
+                "moduleName": "Funciones",
+                "lesson": [
+                    {"lessonName": "Funciones", "lessonTime": 75}
+                ]
+            },
+            {
+                "moduleName": "Eventos y persistencia de datos en el navegador",
+                "lesson": [
+                    {"lessonName": "Eventos y persistencia de datos en el navegador", "lessonTime": 55}
+                ]
+            },
+            {
+                "moduleName": "Clases y objetos",
+                "lesson": [
+                    {"lessonName": "Clases y objetos", "lessonTime": 36}
+                ]
+            },
+            {
+                "moduleName": "Herencia, polimorfismo, decoradores e interfaces",
+                "lesson": [
+                    {"lessonName": "Herencia, polimorfismo, decoradores e interfaces", "lessonTime": 65}
+                ]
+            },
+            {
+                "moduleName": "Patrones de diseño",
+                "lesson": [
+                    {"lessonName": "Patrones de diseño", "lessonTime": 59}
+                ]
+            },
+            {
+                "moduleName": "Debugging, documentación y mantenimiento",
+                "lesson": [
+                    {"lessonName": "Debugging, documentación y mantenimiento", "lessonTime": 75}
+                ]
+            }
+        ],     
+        "duration": "7h",
+        "imgUrl": "https://storage.googleapis.com/openvitae-prod/cursos/ckxhcnn5w001f04sc8iefek0h.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=openvitaebeta%40wired-coda-333713.iam.gserviceaccount.com%2F20230527%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230527T181209Z&X-Goog-Expires=518401&X-Goog-SignedHeaders=host&X-Goog-Signature=00296b05ff614113f5473d0221d76c1823af570af496ee2041939feb1d2f538bf0e95a9de4a13825f0b02052e2efdd97c535b54b985b26222fe779ea5c70e70f88dc4eb770a060b91231c8921dbcf9fcb12594c0bf22d6a6be28dbcf51122ad1ff30d302a86af3c547d88f5d0aed259c5c316e3b4c009f1d76dcaa99f7254555da57fed32683e4fea08cf24804ccd856b8a28ed946bc1b161ab9e0b48cba0897b8dbb7c23ff8cdbf5035e9797d643a1907479948536a488f82d2651a09235649680904930901c983008daaa4730087565ca792793a8b922fba688a68175aa619e2497c9a588150163004e939c749e82abb0297326aec996693f10bbc9f69b43d",
+        "type": "Intermedio",
+        "description": "Empieza a programar con uno de los lenguajes de programación más populares del momento. Al finalizar este curso, los alumnos obtendrán una base sólida en el lenguaje de programación TypeScript, así de cómo aplicar técnicas de documentación y mantenimiento, patrones de diseño con el lenguaje, testing y otras buenas prácticas.",
+        "prominent": false
+    },
+    {
+        "name": "HTML y CSS",
+        "modules": [
+            {
+                "moduleName": "Introducción a HTML, etiquetas y atributos",
+                "lesson": [
+                    {"lessonName": "Introducción a HTML", "lessonTime": 30},
+                    {"lessonName": "Extensiones", "lessonTime": 20},
+                    {"lessonName": "Mi primera Web", "lessonTime": 35},
+                    {"lessonName": "Etiquetas más utilizadas", "lessonTime": 50},
+                    {"lessonName": "Introducción a CSS", "lessonTime": 65}
+                ]
+            },
+            {
+                "moduleName": "Modelo de caja y seletores CSS",
+                "lesson": [
+                    {"lessonName": "El modelo de caja en CSS", "lessonTime": 45},
+                    {"lessonName": "Selectores de CSS", "lessonTime": 55},
+                    {"lessonName": "Pseudoclases y pseudoelementos", "lessonTime": 40}
+                ]
+            },
+            {
+                "moduleName": "Diseño de páginas web con CSS",
+                "lesson": [
+                    {"lessonName": "Diseño de layout con CSS", "lessonTime": 50},
+                    {"lessonName": "Posicionamiento de elementos", "lessonTime": 60},
+                    {"lessonName": "Flexbox y Grid", "lessonTime": 75}
+                ]
+            },
+            {
+                "moduleName": "Tipografía y estilos de texto",
+                "lesson": [
+                    {"lessonName": "Propiedades de tipografía en CSS", "lessonTime": 45},
+                    {"lessonName": "Estilos de texto", "lessonTime": 50},
+                    {"lessonName": "Web fonts y Google Fonts", "lessonTime": 40}
+                ]
+            },
+            {
+                "moduleName": "Colores y fondos",
+                "lesson": [
+                    {"lessonName": "Propiedades de color en CSS", "lessonTime": 35},
+                    {"lessonName": "Fondos en CSS", "lessonTime": 40},
+                    {"lessonName": "Gradientes y sombras", "lessonTime": 50}
+                ]
+            },
+            {
+                "moduleName": "Imágenes y multimedia",
+                "lesson": [
+                    {"lessonName": "Agregando imágenes en HTML", "lessonTime": 30},
+                    {"lessonName": "Estilos para imágenes", "lessonTime": 35},
+                    {"lessonName": "Trabajo con multimedia", "lessonTime": 45}
+                ]
+            },
+            {
+                "moduleName": "Enlaces y navegación",
+                "lesson": [
+                    {"lessonName": "Creación de enlaces", "lessonTime": 40},
+                    {"lessonName": "Menús de navegación", "lessonTime": 50},
+                    {"lessonName": "Estilos de enlaces", "lessonTime": 35}
+                ]
+            },
+            {
+                "moduleName": "Tablas y formularios",
+                "lesson": [
+                    {"lessonName": "Creación de tablas", "lessonTime": 45},
+                    {"lessonName": "Estilos para tablas", "lessonTime": 40},
+                    {"lessonName": "Creación de formularios", "lessonTime": 55}
+                ]
+            },
+            {
+                "moduleName": "Responsive Web Design",
+                "lesson": [
+                    {"lessonName": "Introducción al diseño responsivo", "lessonTime": 30},
+                    {"lessonName": "Media queries", "lessonTime": 45},
+                    {"lessonName": "Diseño adaptable con Flexbox", "lessonTime": 60}
+                ]
+            },
+            {
+                "moduleName": "Animaciones y transformaciones",
+                "lesson": [
+                    {"lessonName": "Transiciones en CSS", "lessonTime": 40},
+                    {"lessonName": "Animaciones con keyframes", "lessonTime": 55},
+                    {"lessonName": "Transformaciones en CSS", "lessonTime": 50}
+                ]
+            },
+            {
+                "moduleName": "Frameworks y librerías CSS",
+                "lesson": [
+                    {"lessonName": "Bootstrap", "lessonTime": 60},
+                    {"lessonName": "Foundation", "lessonTime": 50},
+                    {"lessonName": "Bulma", "lessonTime": 45}
+                ]
+            },
+            {
+                "moduleName": "Optimización y rendimiento",
+                "lesson": [
+                    {"lessonName": "Minificación de archivos CSS y HTML", "lessonTime": 35},
+                    {"lessonName": "Optimización de imágenes", "lessonTime": 40},
+                    {"lessonName": "Caché y compresión", "lessonTime": 50}
+                ]
+            },
+            {
+                "moduleName": "Frameworks y librerías JS para interacciones",
+                "lesson": [
+                    {"lessonName": "jQuery", "lessonTime": 60},
+                    {"lessonName": "React", "lessonTime": 75},
+                    {"lessonName": "Vue.js", "lessonTime": 70}
+                ]
+            },
+            {
+                "moduleName": "Integración de HTML y CSS con JS",
+                "lesson": [
+                    {"lessonName": "Manipulación del DOM con JavaScript", "lessonTime": 50},
+                    {"lessonName": "Estilos dinámicos con JavaScript", "lessonTime": 45},
+                    {"lessonName": "Eventos y manejo de interacciones", "lessonTime": 60}
+                ]
+            }
+        ],            
+        "duration": "17h",
+        "imgUrl": "https://storage.googleapis.com/openvitae-prod/cursos/ckwnpoofv00100452ekx44s5w.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=openvitaebeta%40wired-coda-333713.iam.gserviceaccount.com%2F20230527%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230527T181606Z&X-Goog-Expires=518401&X-Goog-SignedHeaders=host&X-Goog-Signature=94b83cf57a35e9ba975070b8a20b2c832e7f34f0221bc6d134fa583ca1fb35e5c20a943c7f4679c7e27e6c7cbbae791ee36d0f53ae0e7bd0c9dfdc82a7199fb2a9e073645ea51cfbbf0a67df441b5dcda0bcd5b736e09a75f7ff3eda722b16a457536f2d4a185382d8f182d94e7be699f169b50cac3613bdab1f0a3c1458a573961f0a504b6465cf908c4de15273803cd6825ee174a38cefb1da3884c8a8943becd313b564d8ac30bdc9bd3070b70a04dfb7d04479be79d21caa8c49590951fc61f052404448b6d865de34804123f06d8ebf8e339a482f48f91e610649c631d2ce5cf7dc2adac854863f05bd6ce5713f834f57c9e9cd53d559511f9cd446decf",
+        "type": "Inicial",
+        "description": "Con este curso de HTML y CSS aprenderás las bases de todo desarrollo web, pues ambos son los lenguajes estándar para el desarrollo de páginas web en el mundo. Empieza a maquetar tus aplicaciones y páginas web de manera profesional desde 0.",
+        "prominent": false
+    },
+    {
+        "name": "Python",
+        "modules": [
+            {
+                "moduleName": "Introducción a Python",
+                "lesson": [
+                    {"lessonName": "Introducción a Python", "lessonTime": 65}
+                ]
+            },
+            {
+                "moduleName": "El intérprete de Python",
+                "lesson": [
+                    {"lessonName": "Configuracion de intérprete", "lessonTime": 50}
+                ]
+            },
+            {
+                "moduleName": "Introducción a los tipos de objetos",
+                "lesson": [
+                    {"lessonName": "Introducción a los tipos de objetos", "lessonTime": 45}
+                ]
+            },
+            {
+                "moduleName": "Control de flujo",
+                "lesson": [
+                    {"lessonName": "Control de flujo", "lessonTime": 50}
+                ]
+            },
+            {
+                "moduleName": "Funciones",
+                "lesson": [
+                    {"lessonName": "Funciones", "lessonTime": 55}
+                ]
+            },
+            {
+                "moduleName": "Clases y objetos",
+                "lesson": [
+                    {"lessonName": "Clases y objetos", "lessonTime": 70}
+                ]
+            },
+            {
+                "moduleName": "Módulos",
+                "lesson": [
+                    {"lessonName": "Módulos", "lessonTime": 75}
+                ]
+            },
+            {
+                "moduleName": "Entrada y salida",
+                "lesson": [
+                    {"lessonName": "Entrada y salida", "lessonTime": 70}
+                ]
+            },
+            {
+                "moduleName": "Bibliotecas y funciones Built-in",
+                "lesson": [
+                    {"lessonName": "Bibliotecas y funciones Built-in", "lessonTime": 90}
+                ]
+            },
+            {
+                "moduleName": "Bases de datos",
+                "lesson": [
+                    {"lessonName": "Bases de datos", "lessonTime": 48}
+                ]
+            },
+            {
+                "moduleName": "GUI",
+                "lesson": [
+                    {"lessonName": "GUI", "lessonTime": 95}
+                ]
+            }
+        ],            
+        "duration": "11h 8min",
+        "imgUrl": "https://storage.googleapis.com/openvitae-prod/cursos/ckxyk3xlm000v04s99vpd8sxs.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=openvitaebeta%40wired-coda-333713.iam.gserviceaccount.com%2F20230527%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230527T182225Z&X-Goog-Expires=518400&X-Goog-SignedHeaders=host&X-Goog-Signature=0f00e5a3ef20d3013cb2851ea20291db1f28f808f13e80f3270a236bee5d104d6a4803ddddbf7d59b8e134749cb35bca9c6d531f784900fabc0b83c799b327abdeb140b92d92ed5e9668ef48df794409ced92a601413ac5465d608024f988624e756a9584078b8b9a8ac33a3b9349ae95cfe91fb1a4055cee47582ac7848b7784959e786d69a86f16a52f0bfe299f9e2f17a78de6c6993c5c62c7b987c3f8378720edf4ee4e22b3037deb32c8ef528b7f0e59c786e428bbd527ebb85033fa18e5b3be7ff21d85dc9a9920b25902782a7af6034262c254ab87dfd8fcb03d44f1beb99c939e0e99203b658561787763af9ce7c7e6041aac4de916b241fc63a19d7",
+        "type": "Inicial",
+        "description": "Lenguaje de programación interpretado que tiene como máxima destacar por una sintaxis que favorezca la legibilidad del código. Se trata de un lenguaje que soporta varios paradigmas tales como POO, programación imperativa y funcional.",
+        "prominent": false
+    },
+    {
+        "name": "React JS",
+        "modules": [
+            {
+                "moduleName": "Introducción a React JS",
+                "lesson": [
+                    {"lessonName": "Introducción a React JS", "lessonTime": 65}
+                ]
+            },
+            {
+                "moduleName": "Componentes y jerarquía",
+                "lesson": [
+                    {"lessonName": "Componentes y jerarquía", "lessonTime": 60}
+                ]
+            },
+            {
+                "moduleName": "Presentación del proyecto evolutivo",
+                "lesson": [
+                    {"lessonName": "Presentación del proyecto evolutivo", "lessonTime": 45}
+                ]
+            },
+            {
+                "moduleName": "Virtual DOM y reconciliación",
+                "lesson": [
+                    {"lessonName": "Virtual DOM y reconciliación", "lessonTime": 55}
+                ]
+            },
+            {
+                "moduleName": "Estados y ciclo de vida",
+                "lesson": [
+                    {"lessonName": "Estados y ciclo de vida", "lessonTime": 70}
+                ]
+            },
+            {
+                "moduleName": "Props y propiedades",
+                "lesson": [
+                    {"lessonName": "Props y propiedades", "lessonTime": 50}
+                ]
+            },
+            {
+                "moduleName": "Manejo de eventos",
+                "lesson": [
+                    {"lessonName": "Manejo de eventos", "lessonTime": 45}
+                ]
+            },
+            {
+                "moduleName": "Comunicación entre componentes",
+                "lesson": [
+                    {"lessonName": "Comunicación entre componentes", "lessonTime": 60}
+                ]
+            },
+            {
+                "moduleName": "Renderizado condicional",
+                "lesson": [
+                    {"lessonName": "Renderizado condicional", "lessonTime": 50}
+                ]
+            },
+            {
+                "moduleName": "Listas y keys",
+                "lesson": [
+                    {"lessonName": "Listas y keys", "lessonTime": 55}
+                ]
+            },
+            {
+                "moduleName": "Estilos en React",
+                "lesson": [
+                    {"lessonName": "Estilos en React", "lessonTime": 65}
+                ]
+            },
+            {
+                "moduleName": "Formularios y entradas de datos",
+                "lesson": [
+                    {"lessonName": "Formularios y entradas de datos", "lessonTime": 75}
+                ]
+            },
+            {
+                "moduleName": "Ciclo de vida de los componentes",
+                "lesson": [
+                    {"lessonName": "Ciclo de vida de los componentes", "lessonTime": 70}
+                ]
+            },
+            {
+                "moduleName": "Enrutamiento con React Router",
+                "lesson": [
+                    {"lessonName": "Enrutamiento con React Router", "lessonTime": 80}
+                ]
+            },
+            {
+                "moduleName": "Herramientas de desarrollo en React",
+                "lesson": [
+                    {"lessonName": "Herramientas de desarrollo en React", "lessonTime": 60}
+                ]
+            },
+            {
+                "moduleName": "Hooks: useState y useEffect",
+                "lesson": [
+                    {"lessonName": "Hooks: useState y useEffect", "lessonTime": 75}
+                ]
+            },
+            {
+                "moduleName": "Hooks: useContext y useReducer",
+                "lesson": [
+                    {"lessonName": "Hooks: useContext y useReducer", "lessonTime": 70}
+                ]
+            },
+            {
+                "moduleName": "Hooks personalizados",
+                "lesson": [
+                    {"lessonName": "Hooks personalizados", "lessonTime": 65}
+                ]
+            },
+            {
+                "moduleName": "Context API",
+                "lesson": [
+                    {"lessonName": "Context API", "lessonTime": 55}
+                ]
+            },
+            {
+                "moduleName": "Render Props",
+                "lesson": [
+                    {"lessonName": "Render Props", "lessonTime": 50}
+                ]
+            },
+            {
+                "moduleName": "Lazy loading y Suspense",
+                "lesson": [
+                    {"lessonName": "Lazy loading y Suspense", "lessonTime": 60}
+                ]
+            },
+            {
+                "moduleName": "Optimización de rendimiento",
+                "lesson": [
+                    {"lessonName": "Optimización de rendimiento", "lessonTime": 65}
+                ]
+            },
+            {
+                "moduleName": "Testing en React",
+                "lesson": [
+                    {"lessonName": "Testing en React", "lessonTime": 55}
+                ]
+            },
+            {
+                "moduleName": "Integración con APIs",
+                "lesson": [
+                    {"lessonName": "Integración con APIs", "lessonTime": 70}
+                ]
+            },
+            {
+                "moduleName": "Integración con bibliotecas externas",
+                "lesson": [
+                    {"lessonName": "Integración con bibliotecas externas", "lessonTime": 75}
+                ]
+            },
+            {
+                "moduleName": "Despliegue de aplicaciones React",
+                "lesson": [
+                    {"lessonName": "Despliegue de aplicaciones React", "lessonTime": 80}
+                ]
+            },
+            {
+                "moduleName": "Introducción a React Native",
+                "lesson": [
+                    {"lessonName": "Introducción a React Native", "lessonTime": 90}
+                ]
+            },
+            {
+                "moduleName": "Componentes básicos en React Native",
+                "lesson": [
+                    {"lessonName": "Componentes básicos en React Native", "lessonTime": 85}
+                ]
+            },
+            {
+                "moduleName": "Estilos y diseño en React Native",
+                "lesson": [
+                    {"lessonName": "Estilos y diseño en React Native", "lessonTime": 75}
+                ]
+            }
+        ],            
+        "duration": "29h 25min",
+        "imgUrl": "https://storage.googleapis.com/openvitae-prod/cursos/ckwnemhh600060452h3qa8hep.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=openvitaebeta%40wired-coda-333713.iam.gserviceaccount.com%2F20230527%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230527T183030Z&X-Goog-Expires=518401&X-Goog-SignedHeaders=host&X-Goog-Signature=6d35275d2af20369de4a0f879797099187530a083125434ad094e67f7103dced236232f74aaf4635e6cad9567e676557d1e3214d7b6e44bdc6225a95b3ff0b912be88758a366b742047a84fb3c441cc543b9931a7398a60e8664f1bb4e7a49e450487dff32c4ba9480e922235c9d2955d335d101fc0aa36c29c621c64b6bcb0689287ce1611ff85645fef531e419552252f1cd2766eb31bda5647e91f789ce56f0738f0591811390d441327f997f28193b307e390fc1526c3b9b4ae65de24ebaf3d7d4e4c27750c7c5883f6b8958c7a98e81a1a47f63a98e71ab9fecb1ec13c4c42cadd1af2c953a108e4474fdbe71ac9bc27dfefb821b4f3441bc3f4acd9dea",
+        "type": "Intermedio",
+        "description": "Librería de JavaScript de código abierto desarrollada por los ingenieros de Facebook con el objetivo de ofrecer los mejores estándares en experiencia de usuario. Su objetivo es ayudarte en el desarrollo de aplicaciones donde necesites usar datos que cambien todo el tiempo, siendo su uso sencillo, declarativo y fácil de combinar. Mediante este curso podrás aprender a realizar interfaces de usuario utilizando una de las herramientas más potentes y populares actualmente.",
+        "prominent": false
+    },
+    {
+        "name": "React JS Avanzado",
+        "modules": [
+            {
+                "moduleName": "React Hooks avanzados",
+                "lesson": [
+                    {"lessonName": "Introducción a los Hooks avanzados", "lessonTime": 90}
+                ]
+            },
+            {
+                "moduleName": "Renderización condicional avanzada",
+                "lesson": [
+                    {"lessonName": "Renderización condicional avanzada", "lessonTime": 75}
+                ]
+            },
+            {
+                "moduleName": "Gestión del estado avanzada",
+                "lesson": [
+                    {"lessonName": "Gestión del estado avanzada", "lessonTime": 80}
+                ]
+            },
+            {
+                "moduleName": "Optimización del rendimiento en React",
+                "lesson": [
+                    {"lessonName": "Optimización del rendimiento en React", "lessonTime": 95}
+                ]
+            },
+            {
+                "moduleName": "Testing avanzado en React",
+                "lesson": [
+                    {"lessonName": "Testing avanzado en React", "lessonTime": 85}
+                ]
+            },
+            {
+                "moduleName": "Patrones de diseño en React",
+                "lesson": [
+                    {"lessonName": "Patrón Render Props", "lessonTime": 70},
+                    {"lessonName": "Patrón Higher-Order Component (HOC)", "lessonTime": 75},
+                    {"lessonName": "Patrón Compound Component", "lessonTime": 80}
+                ]
+            },
+            {
+                "moduleName": "Arquitectura y escalabilidad en React",
+                "lesson": [
+                    {"lessonName": "Arquitectura Flux y Redux", "lessonTime": 90},
+                    {"lessonName": "Escalabilidad con React y Redux", "lessonTime": 95}
+                ]
+            },
+            {
+                "moduleName": "Server-Side Rendering (SSR) en React",
+                "lesson": [
+                    {"lessonName": "Introducción al SSR en React", "lessonTime": 80},
+                    {"lessonName": "Configuración de SSR con Next.js", "lessonTime": 90}
+                ]
+            },
+            {
+                "moduleName": "Integración con bibliotecas y frameworks externos",
+                "lesson": [
+                    {"lessonName": "Integración con D3.js", "lessonTime": 75},
+                    {"lessonName": "Integración con Three.js", "lessonTime": 80},
+                    {"lessonName": "Integración con GraphQL", "lessonTime": 85}
+                ]
+            },
+            {
+                "moduleName": "Desarrollo de aplicaciones avanzadas con React",
+                "lesson": [
+                    {"lessonName": "Creación de una aplicación de comercio electrónico", "lessonTime": 120},
+                    {"lessonName": "Desarrollo de una aplicación de chat en tiempo real", "lessonTime": 110}
+                ]
+            }
+        ],                  
+        "duration": "17h 33min",
+        "imgUrl": "https://storage.googleapis.com/openvitae-prod/cursos/ckwnet266000i04525t6a0foh.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=openvitaebeta%40wired-coda-333713.iam.gserviceaccount.com%2F20230527%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230527T185120Z&X-Goog-Expires=518400&X-Goog-SignedHeaders=host&X-Goog-Signature=80d999cf88b99ff0ed1a5bf4ea4075e43f251b27438ea2e7cef30d0e98846660dc93fce1247e353f5b2887916d7394a1805b5c58617e36fec4288936c1a6de613e328acf25e6466a37932c041a8d770150e3a3f964fdf91a94721d782a2738f7570925109a4791a0d37ddf81d4aebfddbc1927f6d84c0c2428737aca4ad47f48c86a721ef933f8e798f60774afb70c4409518159251244820c497945feaf1ad62e4edd7e0880d7dbe6c53964b099e7a332f696aef7395fde0676f18688fe7ab093d4752779179d529657461cf6d11ac57d01538b76fc8acaa808e70a073117f8af302885300bba6b6797e264a315c318e06136847bfbca08641b3b0a9729dfc4",
+        "type": "Avanzado",
+        "description": "Librería de JavaScript de código abierto desarrollada por los ingenieros de Facebook con el objetivo de ofrecer los mejores estándares en experiencia de usuario. Su objetivo es ayudarte en el desarrollo de aplicaciones donde necesites usar datos que cambien todo el tiempo, siendo su uso sencillo, declarativo y fácil de combinar. Mediante este curso podrás aprender a realizar interfaces de usuario utilizando una de las herramientas más potentes y populares actualmente.",
+        "prominent": false
+    },
+    {
+        "name": "Angular Basico",
+        "modules": [
+            {
+                "moduleName": "Introducción a Angular",
+                "lesson": [
+                    {"lessonName": "Introducción a Angular", "lessonTime": 60}
+                ]
+            },
+            {
+                "moduleName": "Componentes en Angular",
+                "lesson": [
+                    {"lessonName": "Componentes en Angular", "lessonTime": 45}
+                ]
+            },
+            {
+                "moduleName": "Directivas en Angular",
+                "lesson": [
+                    {"lessonName": "Directivas en Angular", "lessonTime": 50}
+                ]
+            },
+            {
+                "moduleName": "Enlace de Datos en Angular",
+                "lesson": [
+                    {"lessonName": "Enlace de Datos en Angular", "lessonTime": 55}
+                ]
+            },
+            {
+                "moduleName": "Servicios y Dependencias en Angular",
+                "lesson": [
+                    {"lessonName": "Servicios en Angular", "lessonTime": 50},
+                    {"lessonName": "Dependencias en Angular", "lessonTime": 45}
+                ]
+            },
+            {
+                "moduleName": "Routing en Angular",
+                "lesson": [
+                    {"lessonName": "Routing en Angular", "lessonTime": 60}
+                ]
+            },
+            {
+                "moduleName": "Formularios en Angular",
+                "lesson": [
+                    {"lessonName": "Formularios en Angular", "lessonTime": 55}
+                ]
+            },
+            {
+                "moduleName": "Pipes en Angular",
+                "lesson": [
+                    {"lessonName": "Pipes en Angular", "lessonTime": 40}
+                ]
+            },
+            {
+                "moduleName": "Interacción con APIs en Angular",
+                "lesson": [
+                    {"lessonName": "Interacción con APIs en Angular", "lessonTime": 65}
+                ]
+            },
+            {
+                "moduleName": "Manejo de Errores en Angular",
+                "lesson": [
+                    {"lessonName": "Manejo de Errores en Angular", "lessonTime": 50}
+                ]
+            },
+            {
+                "moduleName": "Testing en Angular",
+                "lesson": [
+                    {"lessonName": "Testing en Angular", "lessonTime": 55}
+                ]
+            },
+            {
+                "moduleName": "Optimización de Rendimiento en Angular",
+                "lesson": [
+                    {"lessonName": "Optimización de Rendimiento en Angular", "lessonTime": 60}
+                ]
+            },
+            {
+                "moduleName": "Despliegue de Aplicaciones Angular",
+                "lesson": [
+                    {"lessonName": "Despliegue de Aplicaciones Angular", "lessonTime": 50}
+                ]
+            },
+            {
+                "moduleName": "Angular CLI",
+                "lesson": [
+                    {"lessonName": "Angular CLI", "lessonTime": 45}
+                ]
+            },
+            {
+                "moduleName": "Angular Material",
+                "lesson": [
+                    {"lessonName": "Introducción a Angular Material", "lessonTime": 50},
+                    {"lessonName": "Componentes de Angular Material", "lessonTime": 55}
+                ]
+            }
+        ],
+        "duration": "13h 7min",
+        "imgUrl": "https://storage.googleapis.com/openvitae-prod/cursos/ckxg31er20005040m0o2k3qf1.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=openvitaebeta%40wired-coda-333713.iam.gserviceaccount.com%2F20230527%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230527T184415Z&X-Goog-Expires=518401&X-Goog-SignedHeaders=host&X-Goog-Signature=4bda114c3c2f89150ef0f42d5eeffd30d950d3eebf923790a4069b2be53e27bfd1d1030962b5a513f530cea8b845f793f093a078cb7331d400732ff7252ce63a6d22bf0d6af989e3833a0b890acc0ed9a9a9551d839774ce4b709ba8d9e990629c37474405f0e95a213ba4a5273dabc95742000329e1ff0243f0b4b2e98df4cd9862288e6a29107d679707c10c3089b619e2256b02b026830bed43f1b9a053d61862feb46fd7bac91d0fdf8a277ec590702571136abad3bafffe11a9d8118c8116d1e1fbe5331566bac4fca3a1a81bad11a3c4e77f73ff8f59ce1c1859ef59386b7b66b2e7ce460318465639ae2cd7e5f24822919982a7597fd48546d794e964",
+        "type": "Intermedio",
+        "description": "Angular es el framework de desarrollo en TypeScript creado por Google. Con este módulo, aprenderás a desarrollar aplicaciones web increíbles, obtendrás una base sólida de aprendizaje y dominio de todas las características y funcionalidades que forman parte de este framework.",
+        "prominent": false
+    },
+    {
+        "name": "Angular Avanzado",
+        "modules": [
+            {
+                "moduleName": "Introducción a Angular Avanzado",
+                "lesson": [
+                    {"lessonName": "Introducción a Angular Avanzado", "lessonTime": 90}
+                ]
+            },
+            {
+                "moduleName": "Directivas Avanzadas",
+                "lesson": [
+                    {"lessonName": "Directivas Avanzadas", "lessonTime": 75}
+                ]
+            },
+            {
+                "moduleName": "Componentes Dinámicos",
+                "lesson": [
+                    {"lessonName": "Componentes Dinámicos", "lessonTime": 80}
+                ]
+            },
+            {
+                "moduleName": "Formularios Reactivos",
+                "lesson": [
+                    {"lessonName": "Formularios Reactivos", "lessonTime": 90}
+                ]
+            },
+            {
+                "moduleName": "Manejo de Estado Avanzado",
+                "lesson": [
+                    {"lessonName": "Manejo de Estado con Redux", "lessonTime": 85},
+                    {"lessonName": "Manejo de Estado con NgRx", "lessonTime": 90}
+                ]
+            },
+            {
+                "moduleName": "Optimización de Rendimiento",
+                "lesson": [
+                    {"lessonName": "Optimización de Rendimiento en Angular", "lessonTime": 80}
+                ]
+            },
+            {
+                "moduleName": "Testing Avanzado",
+                "lesson": [
+                    {"lessonName": "Testing de Componentes en Angular", "lessonTime": 75},
+                    {"lessonName": "Testing de Servicios en Angular", "lessonTime": 70}
+                ]
+            },
+            {
+                "moduleName": "Arquitectura y Escalabilidad",
+                "lesson": [
+                    {"lessonName": "Arquitectura Limpia en Angular", "lessonTime": 85},
+                    {"lessonName": "Escalabilidad con Microfrontends", "lessonTime": 90}
+                ]
+            },
+            {
+                "moduleName": "Interacción con APIs Avanzada",
+                "lesson": [
+                    {"lessonName": "Interacción con APIs GraphQL", "lessonTime": 80},
+                    {"lessonName": "WebSockets en Angular", "lessonTime": 75}
+                ]
+            },
+            {
+                "moduleName": "Seguridad y Autenticación",
+                "lesson": [
+                    {"lessonName": "Seguridad en Angular", "lessonTime": 80},
+                    {"lessonName": "Autenticación con JWT", "lessonTime": 85}
+                ]
+            },
+            {
+                "moduleName": "Despliegue y Configuración Avanzada",
+                "lesson": [
+                    {"lessonName": "Despliegue de Aplicaciones Angular", "lessonTime": 75},
+                    {"lessonName": "Configuración Avanzada de Angular", "lessonTime": 80}
+                ]
+            },
+            {
+                "moduleName": "Angular Universal",
+                "lesson": [
+                    {"lessonName": "Introducción a Angular Universal", "lessonTime": 90}
+                ]
+            },
+            {
+                "moduleName": "Pruebas de Rendimiento",
+                "lesson": [
+                    {"lessonName": "Pruebas de Rendimiento en Angular", "lessonTime": 85}
+                ]
+            },
+            {
+                "moduleName": "Desarrollo de Aplicaciones Avanzadas con Angular",
+                "lesson": [
+                    {"lessonName": "Desarrollo de una Aplicación de E-commerce", "lessonTime": 120},
+                    {"lessonName": "Desarrollo de una Aplicación de Gestión de Proyectos", "lessonTime": 110}
+                ]
+            }
+        ],    
+        "duration": "22h 42min",
+        "imgUrl": "https://storage.googleapis.com/openvitae-prod/cursos/clbnovywb000d0103b3rwha2d.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=openvitaebeta%40wired-coda-333713.iam.gserviceaccount.com%2F20230527%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230527T185056Z&X-Goog-Expires=518400&X-Goog-SignedHeaders=host&X-Goog-Signature=66ed70d0b2d7d5dde1536d97668823f92166ff961fab18c9f795c2c177403937b10c8ef2429885628cdf9474044740479373aa9da88329b5aa2b121a7a9aea7663615cfa35eacd2d4bd92c8d6ead02b7489442854d2051c21b3b0545c2ffe1a03ec7ffb5bdf34185e173791a7959cafae8fc74b02287bd98da3617ef1e3e0ea8ba0661a6f6f2970c2952ca81615e06d74271299200da4c2b2b15b38941615791a1a9f334baf37c785fdc4cc6c93f63df1edb87fffbae427cf22d984977c21d30eac46fd56c9075fa16701746b987e2a692987b95058b842606d3bf6abf89089d21b69f1b74b39d438849b8f5e30383965c9e7c7c9fdcf25a86ed160a7c7510c4",
+        "type": "Avanzado",
+        "description": "Angular es el framework de desarrollo en TypeScript creado por Google. Con este módulo, aprenderás a desarrollar aplicaciones web increíbles, obtendrás una base sólida de aprendizaje y dominio de todas las características y funcionalidades que forman parte de este framework.",
+        "prominent": false
+    },
+    {
+        "name": "Java Básico",
+        "modules": [
+            {
+                "moduleName": "Introducción a Java",
+                "lesson": [
+                    {"lessonName": "Introducción a Java", "lessonTime": 60}
+                ]
+            },
+            {
+                "moduleName": "Variables y Tipos de Datos",
+                "lesson": [
+                    {"lessonName": "Variables y Tipos de Datos", "lessonTime": 45}
+                ]
+            },
+            {
+                "moduleName": "Estructuras de Control",
+                "lesson": [
+                    {"lessonName": "Estructuras de Control: If-Else", "lessonTime": 50},
+                    {"lessonName": "Estructuras de Control: Bucles", "lessonTime": 55}
+                ]
+            },
+            {
+                "moduleName": "Arreglos y Matrices",
+                "lesson": [
+                    {"lessonName": "Arreglos y Matrices", "lessonTime": 60}
+                ]
+            },
+            {
+                "moduleName": "Funciones y Métodos",
+                "lesson": [
+                    {"lessonName": "Funciones y Métodos", "lessonTime": 55}
+                ]
+            },
+            {
+                "moduleName": "Programación Orientada a Objetos",
+                "lesson": [
+                    {"lessonName": "Conceptos Básicos de POO", "lessonTime": 60},
+                    {"lessonName": "Clases y Objetos", "lessonTime": 65},
+                    {"lessonName": "Herencia y Polimorfismo", "lessonTime": 70}
+                ]
+            },
+            {
+                "moduleName": "Manejo de Excepciones",
+                "lesson": [
+                    {"lessonName": "Manejo de Excepciones", "lessonTime": 50}
+                ]
+            },
+            {
+                "moduleName": "Entrada y Salida",
+                "lesson": [
+                    {"lessonName": "Entrada y Salida de Datos", "lessonTime": 55}
+                ]
+            },
+            {
+                "moduleName": "Colecciones",
+                "lesson": [
+                    {"lessonName": "Listas y ArrayList", "lessonTime": 60},
+                    {"lessonName": "Sets y HashSet", "lessonTime": 65},
+                    {"lessonName": "Mapas y HashMap", "lessonTime": 70}
+                ]
+            },
+            {
+                "moduleName": "Manejo de Archivos",
+                "lesson": [
+                    {"lessonName": "Lectura y Escritura de Archivos", "lessonTime": 55}
+                ]
+            },
+            {
+                "moduleName": "Programación Funcional en Java",
+                "lesson": [
+                    {"lessonName": "Introducción a la Programación Funcional", "lessonTime": 60},
+                    {"lessonName": "Funciones de Orden Superior", "lessonTime": 65},
+                    {"lessonName": "Expresiones Lambda", "lessonTime": 70}
+                ]
+            },
+            {
+                "moduleName": "API de Java",
+                "lesson": [
+                    {"lessonName": "API de Java: String", "lessonTime": 55},
+                    {"lessonName": "API de Java: Date y Time", "lessonTime": 60},
+                    {"lessonName": "API de Java: Collections", "lessonTime": 65},
+                    {"lessonName": "API de Java: Streams", "lessonTime": 70}
+                ]
+            },
+            {
+                "moduleName": "Programación Concurrente",
+                "lesson": [
+                    {"lessonName": "Programación Concurrente: Threads", "lessonTime": 60},
+                    {"lessonName": "Programación Concurrente: Sincronización", "lessonTime": 65},
+                    {"lessonName": "Programación Concurrente: Manejo de Hilos", "lessonTime": 70}
+                ]
+            },
+            {
+                "moduleName": "Bases de Datos y JDBC",
+                "lesson": [
+                    {"lessonName": "Bases de Datos: Introducción", "lessonTime": 55},
+                    {"lessonName": "Bases de Datos: Conexión y Consultas", "lessonTime": 60},
+                    {"lessonName": "Bases de Datos: Transacciones", "lessonTime": 65}
+                ]
+            },
+            {
+                "moduleName": "Interfaces Gráficas de Usuario",
+                "lesson": [
+                    {"lessonName": "Swing: Introducción", "lessonTime": 60},
+                    {"lessonName": "Swing: Componentes y Eventos", "lessonTime": 65},
+                    {"lessonName": "JavaFX: Introducción", "lessonTime": 70},
+                    {"lessonName": "JavaFX: Controles y Escenas", "lessonTime": 75}
+                ]
+            }
+        ],
+        "duration": "17h 59min",
+        "imgUrl": "https://storage.googleapis.com/openvitae-prod/cursos/ckwnek1ee0003045230j9g2q7.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=openvitaebeta%40wired-coda-333713.iam.gserviceaccount.com%2F20230527%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230527T185143Z&X-Goog-Expires=518401&X-Goog-SignedHeaders=host&X-Goog-Signature=55e6cf040f61589966d7eb3224e7070b8875c9cd75ea3ccf8153ec3dbecae5c70a3b041056e659dba5286fccb5ad7b7d98b62ba9cbec1bb1245ef4a4c53cef17da1108305a21e408e418df72cef5194bf4d116a16c47abbff9a0e68d03d48cc5b26e6db09183f1b1373d27a67b31de6023fa9784198644e469af004ac59a6fc736103c7223e60d9a8539ac14db1c0dc2328f2e2a3cf9f8e2c365bc7dd8940ceba90558ff2808d63569771b0716813f45080f07adcb0244a79f0c5fd454871335af9d7013e4781e38a1b816299f89aeffd75a9bf96d9037a58fe215ce2c001149ebb1fab64ede1a544f0d69a9ee2ab1da9513befbcb2c32bba3a4e1c738ad451f",
+        "type": "Inicial",
+        "description": "Empieza tu formación desde 0 y domina tanto el lenguaje Java como las bases en la programación orientada a objetos.",
+        "prominent": false
+    },
+    {
+        "name": "Java Avanzado",
+        "modules": [
+            {
+                "moduleName": "Programación Avanzada",
+                "lesson": [
+                    {"lessonName": "Programación Avanzada: Lambdas", "lessonTime": 75},
+                    {"lessonName": "Programación Avanzada: Genéricos", "lessonTime": 80},
+                    {"lessonName": "Programación Avanzada: Refactorización", "lessonTime": 70}
+                ]
+            },
+            {
+                "moduleName": "Streams y API de Colecciones",
+                "lesson": [
+                    {"lessonName": "Streams en Java", "lessonTime": 90},
+                    {"lessonName": "API de Colecciones: Avanzado", "lessonTime": 85}
+                ]
+            },
+            {
+                "moduleName": "Programación Concurrente y Paralela",
+                "lesson": [
+                    {"lessonName": "Programación Concurrente: Sincronización Avanzada", "lessonTime": 80},
+                    {"lessonName": "Programación Paralela: Fork/Join Framework", "lessonTime": 90}
+                ]
+            },
+            {
+                "moduleName": "Programación Funcional",
+                "lesson": [
+                    {"lessonName": "Programación Funcional: Stream API Avanzado", "lessonTime": 85},
+                    {"lessonName": "Programación Funcional: Optional y Null-Safe", "lessonTime": 75}
+                ]
+            },
+            {
+                "moduleName": "Persistencia de Datos",
+                "lesson": [
+                    {"lessonName": "Persistencia con JDBC", "lessonTime": 80},
+                    {"lessonName": "Persistencia con JPA y Hibernate", "lessonTime": 90}
+                ]
+            },
+            {
+                "moduleName": "Desarrollo Web con Java",
+                "lesson": [
+                    {"lessonName": "Servlets y JSP", "lessonTime": 75},
+                    {"lessonName": "JavaServer Faces (JSF)", "lessonTime": 80},
+                    {"lessonName": "Desarrollo de API RESTful con JAX-RS", "lessonTime": 85},
+                    {"lessonName": "Spring Framework: Introducción", "lessonTime": 90},
+                    {"lessonName": "Spring MVC: Desarrollo Web", "lessonTime": 95}
+                ]
+            },
+            {
+                "moduleName": "Seguridad en Aplicaciones Java",
+                "lesson": [
+                    {"lessonName": "Seguridad en Java: Autenticación y Autorización", "lessonTime": 85},
+                    {"lessonName": "Criptografía y Firma Digital", "lessonTime": 75}
+                ]
+            },
+            {
+                "moduleName": "Diseño de Patrones",
+                "lesson": [
+                    {"lessonName": "Patrones de Diseño: Creacionales", "lessonTime": 80},
+                    {"lessonName": "Patrones de Diseño: Estructurales", "lessonTime": 85},
+                    {"lessonName": "Patrones de Diseño: Comportamiento", "lessonTime": 90}
+                ]
+            },
+            {
+                "moduleName": "Desarrollo de Aplicaciones Web Avanzadas",
+                "lesson": [
+                    {"lessonName": "Arquitectura de Microservicios", "lessonTime": 90},
+                    {"lessonName": "Spring Boot: Desarrollo Rápido de Aplicaciones", "lessonTime": 95},
+                    {"lessonName": "Desarrollo de Aplicaciones Web con Angular y Java", "lessonTime": 100}
+                ]
+            },
+            {
+                "moduleName": "Pruebas Unitarias y TDD",
+                "lesson": [
+                    {"lessonName": "Pruebas Unitarias con JUnit", "lessonTime": 75},
+                    {"lessonName": "Desarrollo Guiado por Pruebas (TDD)", "lessonTime": 80}
+                ]
+            },
+            {
+                "moduleName": "Desarrollo de Aplicaciones de Escritorio",
+                "lesson": [
+                    {"lessonName": "JavaFX: Interfaces Gráficas", "lessonTime": 85},
+                    {"lessonName": "JavaFX: Animaciones y Multimedia", "lessonTime": 90},
+                    {"lessonName": "Desarrollo de Aplicaciones de Escritorio con Swing", "lessonTime": 95}
+                ]
+            }
+        ],
+        "duration": "21h 42min",
+        "imgUrl": "https://storage.googleapis.com/openvitae-prod/cursos/ckwnhlavs000u0452bumm9wmr.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=openvitaebeta%40wired-coda-333713.iam.gserviceaccount.com%2F20230527%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230527T185359Z&X-Goog-Expires=518400&X-Goog-SignedHeaders=host&X-Goog-Signature=944d387f5ced5b0c9cab3eed4f8e42f7d1f532b3ed246a8e4ef54040682741f4c096c2d750f2193b0e66178ac38a0e7928a1d3315b0f034b3a57ddbb4de02eb287c9ce81d152b5faae2ead165c5f9ae388a0992ffb44f33b192cc7945dcf5bd5673e6fb573d9f4720d49fc6769161333f3148ac64a1574f580207092a3f63077dd2f6962f84d3907f30e7d3789f841062c9d4d34145a12ce788df501d19f815b9700a34c0c445e3661dc1c570fdcb93f866d00d528a87692cb6d10d38ca34ff5049ecf69b986816cd4fe6927d8c90e00e312d07ecc53414705de6ab5893fcf94d70ca82e686a4138475f302f7777925e60daa38067939db77d1405c1ea54b758",
+        "type": "Intermedio",
+        "description": "En este curso aprenderás conceptos avanzados en este lenguaje de programación para crear aplicaciones REST y realizar testing a las mismas.",
+        "prominent": false
+    },
+    {
+        "name": "Spring Boot",
+        "modules": [
+            {
+                "moduleName": "Introducción a Spring Boot",
+                "lesson": [
+                    {"lessonName": "Introducción a Spring Boot", "lessonTime": 60}
+                ]
+            },
+            {
+                "moduleName": "Configuración y Propiedades",
+                "lesson": [
+                    {"lessonName": "Configuración de Spring Boot", "lessonTime": 45},
+                    {"lessonName": "Gestión de Propiedades", "lessonTime": 50}
+                ]
+            },
+            {
+                "moduleName": "Desarrollo de Controladores",
+                "lesson": [
+                    {"lessonName": "Creación de Controladores", "lessonTime": 55},
+                    {"lessonName": "Rutas y Parámetros", "lessonTime": 60},
+                    {"lessonName": "Respuestas y Códigos de Estado", "lessonTime": 50}
+                ]
+            },
+            {
+                "moduleName": "Persistencia de Datos",
+                "lesson": [
+                    {"lessonName": "Acceso a Datos con JPA", "lessonTime": 65},
+                    {"lessonName": "Creación de Repositorios", "lessonTime": 60},
+                    {"lessonName": "Consultas Personalizadas", "lessonTime": 55}
+                ]
+            },
+            {
+                "moduleName": "Seguridad en Spring Boot",
+                "lesson": [
+                    {"lessonName": "Autenticación y Autorización", "lessonTime": 70},
+                    {"lessonName": "Protección de Rutas", "lessonTime": 75},
+                    {"lessonName": "Control de Acceso a Métodos", "lessonTime": 60}
+                ]
+            },
+            {
+                "moduleName": "Desarrollo de API RESTful",
+                "lesson": [
+                    {"lessonName": "Diseño de API RESTful", "lessonTime": 55},
+                    {"lessonName": "Validación de Datos", "lessonTime": 60},
+                    {"lessonName": "Documentación con Swagger", "lessonTime": 65}
+                ]
+            },
+            {
+                "moduleName": "Servicios Web con Spring Boot",
+                "lesson": [
+                    {"lessonName": "Creación de Servicios Web", "lessonTime": 60},
+                    {"lessonName": "Consumo de Servicios Externos", "lessonTime": 65},
+                    {"lessonName": "Seguridad en Servicios Web", "lessonTime": 70}
+                ]
+            },
+            {
+                "moduleName": "Testing en Spring Boot",
+                "lesson": [
+                    {"lessonName": "Pruebas Unitarias con JUnit", "lessonTime": 55},
+                    {"lessonName": "Pruebas de Integración", "lessonTime": 60},
+                    {"lessonName": "Pruebas de API RESTful", "lessonTime": 65}
+                ]
+            },
+            {
+                "moduleName": "Spring Boot Actuator",
+                "lesson": [
+                    {"lessonName": "Monitorización y Métricas", "lessonTime": 50},
+                    {"lessonName": "Auditoría y Tracing", "lessonTime": 55},
+                    {"lessonName": "Gestión de Logs", "lessonTime": 60}
+                ]
+            },
+            {
+                "moduleName": "Despliegue y Gestión de Spring Boot",
+                "lesson": [
+                    {"lessonName": "Empaquetado y Despliegue", "lessonTime": 65},
+                    {"lessonName": "Gestión de Dependencias", "lessonTime": 60},
+                    {"lessonName": "Administración de Entornos", "lessonTime": 55}
+                ]
+            }
+        ],    
+        "duration": "16h",
+        "imgUrl": "https://storage.googleapis.com/openvitae-prod/cursos/ckwnptnpt00140452e4go9gfv.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=openvitaebeta%40wired-coda-333713.iam.gserviceaccount.com%2F20230527%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230527T185638Z&X-Goog-Expires=518400&X-Goog-SignedHeaders=host&X-Goog-Signature=34540cc2ad01221cf7ba3ba3229db297f21ede07c0ba6968797265ec5ef758868df5cbfa0590e5f70d9116fe38f9b8a1a54c47affc02964c713969397de73c8047e8ce074adc10c11a87b024e6d065e1c033124fd58a5a88f76604b3cad67e29ac90f6ac3c6ec2ab3150a7e4424c1500aebd2086df64ba979fd276d2a5f3a284e14c75a99cf59fed868a51824b34e821e6884d9fd4ca66630668dead314ac84ea8eb97ec7844d18f1a5557f9c72b3d499a70e63bf152ccde5e88f71ea8f6d0140666755344a4a9d18cf5d913e64074d9f4389e7a9e73fe72f77a938c2a2b76b2eb0966a8a04d9dc18aa288f647dd500c4bd133e31b0f37255bb0e242f6f70cd4",
+        "type": "Avanzado",
+        "description": "Spring es un framework de código abierto orientado a la creación de proyectos empresariales Java, aunque también tiene soporte con Groovy y Kotlin.",
+        "prominent": false
+    }
+]

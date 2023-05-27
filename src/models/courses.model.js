@@ -13,7 +13,7 @@ const moduleSchema = new Schema({
 const coursesSchema = new Schema({
     name: String,
     modules: [moduleSchema],
-    duration: Number,
+    duration: String,
     imgUrl: String,
     type: String,
     description: String,
