@@ -2,7 +2,7 @@ import express from "express";
 
 const router = express.Router();
 
-router.get('/', (_req, res) => {
+router.get('/', (_req, res, next) => {
     try {
         res.json({
             message: 'Welcome to Campus API',
@@ -10,6 +10,7 @@ router.get('/', (_req, res) => {
         });
 
     } catch(error) {
+        next();
         res.json({
             messages: 'Error en el Servidor',
             error: error

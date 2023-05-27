@@ -1,0 +1,26 @@
+{
+    "name": "JavaScript",
+    "modules": [
+        {
+            "moduleName": "Inicio",
+            "lesson": [
+                {"lessonName": "sesion 1", "lessonTime": 2},
+                {"lessonName": "sesion 2", "lessonTime": 3},
+                {"lessonName": "sesion 3", "lessonTime": 5}
+            ]
+        },
+        {
+            "moduleName": "Fin",
+            "lesson": [
+                {"lessonName": "sesion 4", "lessonTime": 1},
+                {"lessonName": "sesion 5", "lessonTime": 4},
+                {"lessonName": "sesion 6", "lessonTime": 7}
+            ]
+        }
+    ],
+    "duration": 20,
+    "imgUrl": "https://",
+    "type": "Intermedio",
+    "description": "CURSO PARA BASES DE JS",
+    "prominent": false
+}
