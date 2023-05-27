@@ -4,14 +4,14 @@ import { isAdmin, isModerador, verifyToken } from "../middlewares/auth.jwt.js";
 
 const router = express.Router();
 
-router.get('/', [verifyToken, isAdmin], coursesController.getAllCourses)
+router.get('/', [verifyToken], coursesController.getAllCourses)
 
-router.get('/:id?', coursesController.getCourses)
+router.get('/:id?', [verifyToken], coursesController.getCourses)
 
-router.post('/', coursesController.newCourses)
+router.post('/', [verifyToken, isModerador], coursesController.newCourses)
 
-router.put('/:id', coursesController.updateCourses)
+router.put('/:id', [verifyToken, isModerador], coursesController.updateCourses)
 
-router.delete('/:id', coursesController.deleteCourses)
+router.delete('/:id', [verifyToken, isAdmin], coursesController.deleteCourses)
 
 export default router;

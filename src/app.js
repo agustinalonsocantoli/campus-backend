@@ -7,6 +7,7 @@ import morgan from 'morgan';
 import homeRouter from './routes/home.routes.js';
 import coursesRouter from './routes/courses.routes.js';
 import authRouter from './routes/auth.routes.js';
+import usersRouter from './routes/users.routes.js';
 
 // CONFIG 
 dotenv.config()
@@ -21,9 +22,9 @@ export const PORT = process.env.PORT_KEY ? process.env.PORT_KEY : 3001
 app.use(cors());
 
 // ROUTES
-// app.use('/api/login', );
 app.use('/api', homeRouter);
 app.use('/api/auth', authRouter);
+app.use('/api/users', usersRouter);
 app.use('/api/courses', coursesRouter);
 
 export default app;
