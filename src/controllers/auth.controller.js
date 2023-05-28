@@ -22,7 +22,6 @@ const authController = {
                 newUser.rol = foundRol.map(rol => rol._id);
             } else {
                 const foundRol = await Rol.find({name: 'student'});
-                console.log(foundRol);
                 newUser.rol = foundRol.map(rol => rol._id);
             }
 
@@ -30,7 +29,7 @@ const authController = {
             .catch((e) => next(e));
 
             const token = jwt.sign({id: user._id}, process.env.SECRET_KEY, {expiresIn: 86400})
-            console.log(user);
+
             res.json({
                 message: "User created successfully",
                 data: user,
@@ -44,8 +43,6 @@ const authController = {
                 error: error
             })
         }
-        
-        dbEnd();
     },
 
     login: async (req, res, next) => {

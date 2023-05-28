@@ -80,7 +80,7 @@ const usersController = {
                 newUser.rol = foundRol.map(rol => rol._id);
             } else {
                 const foundRol = await Rol.find({name: 'student'});
-                console.log(foundRol);
+
                 newUser.rol = foundRol.map(rol => rol._id);
             }
     
@@ -106,7 +106,7 @@ const usersController = {
     updateUsers: async (req, res, next) => {
 
         try {
-            console.log(req.params.id);
+
             
             const editUser = {
                 username: req.body.username,
