@@ -8,6 +8,7 @@ import homeRouter from './routes/home.routes.js';
 import coursesRouter from './routes/courses.routes.js';
 import authRouter from './routes/auth.routes.js';
 import usersRouter from './routes/users.routes.js';
+import jobsRouter from './routes/jobs.routes.js';
 
 // CONFIG 
 dotenv.config()
@@ -26,5 +27,6 @@ app.use('/api', homeRouter);
 app.use('/api/auth', authRouter);
 app.use('/api/users', usersRouter);
 app.use('/api/courses', coursesRouter);
+app.use('/api/jobs', jobsRouter);
 
 export default app;

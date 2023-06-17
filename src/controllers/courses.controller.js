@@ -100,7 +100,7 @@ const coursesController = {
                 prominent: req.body.prominent
             }
 
-            await Booking.findOneAndUpdate({_id: req.params.id}, editCourse)
+            await Courses.findOneAndUpdate({_id: req.params.id}, editCourse)
             .catch((e) => next(e));
 
             res.json({
