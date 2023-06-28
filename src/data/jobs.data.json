@@ -1,0 +1,222 @@
+[
+    {
+      "job": "Frontend Developer",
+      "company": "Imagina Group",
+      "avatar": "",
+      "description": "Buscamos una persona con más de 2 años de experiencia en frontend, principalmente con conocimientos en React, Redux, Next y TypeScript.",
+      "modality": "Presencial",
+      "workday": "Completa",
+      "country": "España",
+      "city": "Valencia",
+      "salary": "€19k - €22k anuales"
+    },
+    {
+      "job": "FullStack Developer",
+      "company": "Tech Ideal Marketing",
+      "avatar": "",
+      "description": "Desarrollador con experiencia de más de 3 años en un puesto similar, principalmente con conocimientos en Angular, JavaScript, SASS, PHP, Laravel y Docker.",
+      "modality": "Híbrido",
+      "workday": "Completa",
+      "country": "España",
+      "city": "Barcelona",
+      "salary": "€21k - €24k anuales"
+    },
+    {
+      "job": "Backend Developer",
+      "company": "Tech Solutions",
+      "avatar": "",
+      "description": "Estamos buscando un desarrollador backend con experiencia en Node.js, bases de datos SQL y GraphQL.",
+      "modality": "Remoto",
+      "workday": "Completa",
+      "country": "Estados Unidos",
+      "city": "San Francisco",
+      "salary": "$80k - $100k anuales"
+    },
+    {
+      "job": "Mobile Developer",
+      "company": "App Innovations",
+      "avatar": "",
+      "description": "Buscamos un desarrollador móvil con experiencia en el desarrollo de aplicaciones para iOS y Android utilizando Swift, Kotlin y Flutter.",
+      "modality": "Presencial",
+      "workday": "Parcial",
+      "country": "Reino Unido",
+      "city": "Londres",
+      "salary": "£40k - £50k anuales"
+    },
+    {
+      "job": "Data Scientist",
+      "company": "Data Insights",
+      "avatar": "",
+      "description": "Estamos buscando un científico de datos con experiencia en Python, análisis estadístico y machine learning.",
+      "modality": "Remoto",
+      "workday": "Completa",
+      "country": "Alemania",
+      "city": "Berlín",
+      "salary": "€60k - €80k anuales"
+    },
+    {
+      "job": "DevOps Engineer",
+      "company": "Cloud Solutions",
+      "avatar": "",
+      "description": "Buscamos un ingeniero DevOps con experiencia en implementación y mantenimiento de infraestructuras en la nube, como AWS o Azure.",
+      "modality": "Híbrido",
+      "workday": "Completa",
+      "country": "Canadá",
+      "city": "Toronto",
+      "salary": "$90k - $110k anuales"
+    },
+    {
+      "job": "UI/UX Designer",
+      "company": "Design Studio",
+      "avatar": "",
+      "description": "Estamos buscando un diseñador de interfaz de usuario / experiencia de usuario con habilidades en diseño visual, wireframing y prototipado.",
+      "modality": "Presencial",
+      "workday": "Completa",
+      "country": "España",
+      "city": "Madrid",
+      "salary": "€22k - €25k anuales"
+    },
+    {
+      "job": "QA Engineer",
+      "company": "Quality Assurance Inc.",
+      "avatar": "",
+      "description": "Buscamos un ingeniero de control de calidad con experiencia en pruebas automatizadas, metodologías ágiles y herramientas de prueba.",
+      "modality": "Remoto",
+      "workday": "Completa",
+      "country": "Estados Unidos",
+      "city": "Nueva York",
+      "salary": "$70k - $90k anuales"
+    },
+    {
+      "job": "Blockchain Developer",
+      "company": "Crypto Solutions",
+      "avatar": "",
+      "description": "Estamos buscando un desarrollador de blockchain con experiencia en contratos inteligentes y criptomonedas como Ethereum o Bitcoin.",
+      "modality": "Híbrido",
+      "workday": "Completa",
+      "country": "Suiza",
+      "city": "Zurich",
+      "salary": "$100k- $120k anuales"
+    },
+    {
+      "job": "Game Developer",
+      "company": "Game Studios",
+      "avatar": "",
+      "description": "Buscamos un desarrollador de juegos con experiencia en motores de juegos como Unity o Unreal Engine y conocimientos en programación de gráficos y física.",
+      "modality": "Presencial",
+      "workday": "Completa",
+      "country": "Canadá",
+      "city": "Vancouver",
+      "salary": "$80k - $100k anuales"
+    },
+    {
+      "job": "Cloud Architect",
+      "company": "Cloud Solutions",
+      "avatar": "",
+      "description": "Estamos buscando un arquitecto de nube con experiencia en diseño y despliegue de arquitecturas en la nube, como AWS o Google Cloud.",
+      "modality": "Híbrido",
+      "workday": "Completa",
+      "country": "Estados Unidos",
+      "city": "Seattle",
+      "salary": "$120k - $140k anuales"
+    },
+    {
+      "job": "Python Developer",
+      "company": "Tech Innovators",
+      "avatar": "",
+      "description": "Buscamos un desarrollador de Python con experiencia en frameworks como Django o Flask y conocimientos en bases de datos SQL y NoSQL.",
+      "modality": "Remoto",
+      "workday": "Parcial",
+      "country": "Reino Unido",
+      "city": "Manchester",
+      "salary": "£50k - £60k anuales"
+    },
+    {
+      "job": "Big Data Engineer",
+      "company": "Data Solutions",
+      "avatar": "",
+      "description": "Estamos buscando un ingeniero de Big Data con experiencia en herramientas como Hadoop, Spark y MongoDB, y conocimientos en análisis de datos y visualización.",
+      "modality": "Presencial",
+      "workday": "Completa",
+      "country": "España",
+      "city": "Barcelona",
+      "salary": "€24k - €28k anuales"
+    },
+    {
+      "job": "iOS Developer",
+      "company": "App Development Co.",
+      "avatar": "",
+      "description": "Buscamos un desarrollador de iOS con experiencia en Swift, Objective-C y el desarrollo de aplicaciones móviles para iPhone y iPad.",
+      "modality": "Remoto",
+      "workday": "Parcial",
+      "country": "Estados Unidos",
+      "city": "Los Ángeles",
+      "salary": "$70k - $90k anuales"
+    },
+    {
+      "job": "Java Developer",
+      "company": "Tech Solutions",
+      "avatar": "",
+      "description": "Estamos buscando un desarrollador de Java con experiencia en frameworks como Spring y Hibernate, y conocimientos en bases de datos relacionales.",
+      "modality": "Híbrido",
+      "workday": "Completa",
+      "country": "Alemania",
+      "city": "Múnich",
+      "salary": "€55k - €70k anuales"
+    },
+    {
+      "job": "Machine Learning Engineer",
+      "company": "AI Innovations",
+      "avatar": "",
+      "description": "Buscamos un ingeniero de machine learning con experiencia en algoritmos de aprendizaje automático, procesamiento de lenguaje natural y frameworks como TensorFlow o PyTorch.",
+      "modality": "Remoto",
+      "workday": "Completa",
+      "country": "Reino Unido",
+      "city": "Edimburgo",
+      "salary": "£60k - £80k anuales"
+    },
+    {
+      "job": "Ruby on Rails Developer",
+      "company": "Tech Startups",
+      "avatar": "",
+      "description": "Estamos buscando un desarrollador de Ruby on Rails con experiencia en el desarrollo ágil de aplicaciones web y conocimientos en bases de datos SQL.",
+      "modality": "Presencial",
+      "workday": "Completa",
+      "country": "España",
+      "city": "Madrid",
+      "salary": "€22k - €25k anuales"
+    },
+    {
+      "job": "Cybersecurity Analyst",
+      "company": "Security Solutions",
+      "avatar": "",
+      "description": "Buscamos un analista de ciberseguridad con experiencia en identificación de vulnerabilidades, análisis de riesgos y protección de datos.",
+      "modality": "Remoto",
+      "workday": "Completa",
+      "country": "Estados Unidos",
+      "city": "Washington D.C.",
+      "salary": "$90k - $110k anuales"
+    },
+    {
+      "job": "UI Designer",
+      "company": "Design Studio",
+      "avatar": "",
+      "description": "Estamos buscando un diseñador de interfaz de usuario con habilidades en diseño visual, prototipado y experiencia de usuario.",
+      "modality": "Presencial",
+      "workday": "Parcial",
+      "country": "Reino Unido",
+      "city": "Londres",
+      "salary": "£35k - £45k anuales"
+    },
+    {
+      "job": "Embedded Software Engineer",
+      "company": "Tech Hardware",
+      "avatar": "",
+      "description": "Buscamos un ingeniero de software embebido con experiencia en lenguajes de programación como C/C++, sistemas operativos en tiempo real y desarrollo de sistemas embebidos.",
+      "modality": "Híbrido",
+      "workday": "Completa",
+      "country": "Estados Unidos",
+      "city": "Austin",
+      "salary": "$80k - $100k anuales"
+    }
+  ]  
